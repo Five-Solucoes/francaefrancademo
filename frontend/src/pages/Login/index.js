@@ -22,7 +22,7 @@ const Copyright = () => {
 		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
  			<Link color="primary" href="https://multi360digital.com.br">
- 				MULTI360 digital
+ 				MULTI360 DIGITAL
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
