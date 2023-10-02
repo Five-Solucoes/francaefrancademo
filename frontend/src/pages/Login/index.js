@@ -14,15 +14,15 @@ import Container from "@material-ui/core/Container";
 import { i18n } from "../../translate/i18n";
 
 import { AuthContext } from "../../context/Auth/AuthContext";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.jpg";
 
 
 const Copyright = () => {
 	return (
 		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
- 			<Link color="primary" href="#">
- 				PLW
+ 			<Link color="primary" href="https://multi360digital.com.br">
+ 				MULTI360 digital
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
