@@ -38,6 +38,59 @@ class Contact extends Model<Contact> {
   @Column
   email: string;
 
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_1: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_2: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_3: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_4: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_5: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_6: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_7: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_8: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_9: string;
+
+  @AllowNull(false)
+  @Default("")
+  @Column
+  coluna_geral_10: string;
+
+
+
+
   @Default("")
   @Column
   profilePicUrl: string;
