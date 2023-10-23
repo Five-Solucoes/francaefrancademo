@@ -2,7 +2,7 @@
 import { QueryInterface, DataTypes } from "sequelize";
 
 module.exports = {
-  up: function (queryInterface, Sequelize) {
+  up: function (queryInterface: QueryInterface) {
     return [
       queryInterface.addColumn('Contacts', 'coluna_geral_1', {
         type: DataTypes.STRING,
@@ -57,7 +57,7 @@ module.exports = {
     ];
   },
 
-  down: function (queryInterface, Sequelize) {
+  down: function (queryInterface: QueryInterface) {
     return [
       queryInterface.removeColumn('Contacts', 'coluna_geral_1'),
       queryInterface.removeColumn('Contacts', 'coluna_geral_2'),
